@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senda | Strategic Growth Partner for the Outdoor Industry</title>
-    <meta name="description" content="Senda provides strategic growth for the outdoor, overlanding, marine, and mountain sports industries.">
+    <meta name="description"
+        content="Senda provides strategic growth for the outdoor, overlanding, marine, and mountain sports industries.">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <!-- Tailwind config for custom colors & fonts -->
     <script>
         tailwind.config = {
@@ -46,35 +50,51 @@
     </script>
     <style>
         body {
-            background-color: #0F1A14; /* Default dark background */
+            background-color: #0F1A14;
+            /* Default dark background */
         }
+
         /* Fade in animations */
         .fade-in {
             animation: fadeIn 1.5s ease-in-out;
         }
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
+
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
+
         ::-webkit-scrollbar-track {
-            background: #0F1A14; 
+            background: #0F1A14;
         }
+
         ::-webkit-scrollbar-thumb {
-            background: #233A2B; 
+            background: #233A2B;
             border-radius: 4px;
         }
+
         ::-webkit-scrollbar-thumb:hover {
-            background: #FF6F00; 
+            background: #FF6F00;
         }
+
         .bg-overlay {
             background: linear-gradient(to bottom, rgba(15, 26, 20, 0.4), rgba(15, 26, 20, 0.95));
         }
     </style>
 </head>
+
 <body class="bg-forest-900 text-gray-200 font-sans antialiased relative">
     <!-- Texture overlay for rugged feel -->
     <div class="fixed inset-0 pointer-events-none opacity-[0.03] bg-noise z-50"></div>
@@ -84,34 +104,46 @@
         <!-- Background Image -->
         <div class="absolute inset-0 z-0 bg-forest-900">
             <!-- Unsplash dark forest overlanding placeholder -->
-            <img src="https://images.unsplash.com/photo-1542384701-c0e46e0eda04?q=80&w=2600&auto=format&fit=crop" alt="Overlanding in dark forest" class="w-full h-full object-cover object-center opacity-40 mix-blend-overlay grayscale-[30%]">
+            <img src="https://images.unsplash.com/photo-1542384701-c0e46e0eda04?q=80&w=2600&auto=format&fit=crop"
+                alt="4x4 Overlanding Vehicle"
+                class="w-full h-full object-cover object-center opacity-40 mix-blend-overlay grayscale-[30%]">
             <div class="absolute inset-0 bg-overlay"></div>
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center fade-in">
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold text-white tracking-tight leading-tight mb-8">
-                Forge Your Own <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-yellow">Authentic Trail.</span>
+            <h1
+                class="text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold text-white tracking-tight leading-tight mb-8">
+                Forge Your Own <br><span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-yellow">Authentic
+                    Trail.</span>
             </h1>
-            
+
             <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light">
-                We don't build highways for the masses; we craft a dedicated <span class="text-white font-medium italic">senda</span> that leads directly to growth and authentic community. Senda is the strategic growth partner for the entire outdoor industry—from technical apparel and mountain equipment to 4x4s, boats, and winter sports gear.
+                We don't build highways for the masses; we craft a dedicated <span
+                    class="text-white font-medium italic">senda</span> that leads directly to growth and authentic
+                community. Senda is the strategic growth partner for the entire outdoor industry—from technical apparel
+                and mountain equipment to 4x4s, boats, and winter sports gear.
             </p>
-            
+
             <div class="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <a href="#pricing" class="px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-sm uppercase tracking-wide transition-all duration-300 shadow-[0_0_20px_rgba(255,111,0,0.3)]">
+                <a href="#pricing"
+                    class="px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-sm uppercase tracking-wide transition-all duration-300 shadow-[0_0_20px_rgba(255,111,0,0.3)]">
                     Choose Your Path
                 </a>
-                <a href="#methodology" class="px-8 py-4 bg-transparent border border-gray-600 hover:border-gray-300 text-gray-300 hover:text-white font-semibold rounded-sm tracking-wide transition-all duration-300">
+                <a href="#methodology"
+                    class="px-8 py-4 bg-transparent border border-gray-600 hover:border-gray-300 text-gray-300 hover:text-white font-semibold rounded-sm tracking-wide transition-all duration-300">
                     See How We Work
                 </a>
             </div>
         </div>
-        
+
         <!-- Scroll indicator -->
         <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer z-10">
             <a href="#insight" class="text-gray-500 hover:text-white transition">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>
             </a>
         </div>
@@ -125,14 +157,18 @@
             </h2>
             <div class="space-y-6 text-gray-400 text-lg md:text-2xl leading-relaxed font-light">
                 <p>
-                    In a digital world crowded with superhighways, brands that win are the ones that forge their own authentic trail. Standard marketing agencies sell generic visibility. But the goal isn't just to be seen, but to guide and connect with people on a path of genuine discovery.
+                    In a digital world crowded with superhighways, brands that win are the ones that forge their own
+                    authentic trail. Standard marketing agencies sell generic visibility. But the goal isn't just to be
+                    seen, but to guide and connect with people on a path of genuine discovery.
                 </p>
                 <p>
-                    Whether you manufacture offshore fishing boats, sell ultralight camping gear, or design high-performance winter sports apparel, your customers are fellow travelers on a shared journey.
+                    Whether you manufacture offshore fishing boats, sell ultralight camping gear, or design
+                    high-performance winter sports apparel, your customers are fellow travelers on a shared journey.
                 </p>
                 <p class="text-gray-200 font-medium text-xl md:text-3xl mt-8 pt-8 border-t border-forest-800">
                     They don't want corporate polish. <br>
-                    <span class="text-accent-yellow italic block mt-4">They want dirt on the boots, salt on the gear, and snow on the lens.</span>
+                    <span class="text-accent-yellow italic block mt-4">They want dirt on the boots, salt on the gear,
+                        and snow on the lens.</span>
                 </p>
             </div>
         </div>
@@ -140,8 +176,9 @@
 
     <!-- 3. Our Approach (The Senda Services) -->
     <section id="services" class="py-24 bg-charcoal relative">
-         <div class="absolute inset-0 z-0 opacity-[0.05] grayscale">
-            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2600&auto=format&fit=crop" alt="Mountain ridges" class="w-full h-full object-cover">
+        <div class="absolute inset-0 z-0 opacity-[0.05] grayscale">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2600&auto=format&fit=crop"
+                alt="Marine exploration" class="w-full h-full object-cover">
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
@@ -151,65 +188,112 @@
                     Senda: Your Brand's Strategic Path
                 </h2>
                 <p class="text-xl text-gray-400 font-light">
-                    Senda is the strategic path we create for your brand in the digital landscape. We operate remotely to scale your brand globally, utilizing AI to execute faster while aligning perfectly with brands centered on nature, travel, and exploration.
+                    Senda is the strategic path we create for your brand in the digital landscape. We operate remotely
+                    to scale your brand globally, utilizing AI to execute faster while aligning perfectly with brands
+                    centered on nature, travel, and exploration.
                 </p>
             </div>
 
             <!-- Bento Box Grid Layout -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Card 1 -->
-                <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors md:col-span-2 lg:col-span-2 group relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-accent opacity-5 rounded-full blur-2xl group-hover:opacity-20 transition-opacity"></div>
-                    <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                <div
+                    class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors md:col-span-2 lg:col-span-2 group relative overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 w-32 h-32 bg-accent opacity-5 rounded-full blur-2xl group-hover:opacity-20 transition-opacity">
+                    </div>
+                    <div
+                        class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-3 font-heading">The "UGC to Pro" Pipeline</h3>
-                    <p class="text-gray-400 font-light max-w-md">Send us raw customer footage of your gear. We use AI to remove backgrounds, relight, and color-grade, transforming everyday clips into cinematic ads.</p>
+                    <p class="text-gray-400 font-light max-w-md">Send us raw customer footage of your gear. We use AI to
+                        remove backgrounds, relight, and color-grade, transforming everyday clips into cinematic ads.
+                    </p>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
-                    <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div
+                    class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
+                    <div
+                        class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-3 font-heading">Global Content Localization</h3>
-                    <p class="text-gray-400 font-light text-sm">Break into the US and EU markets seamlessly. We use AI voice cloning to translate your top-performing ads into multiple languages without re-shooting.</p>
+                    <p class="text-gray-400 font-light text-sm">Break into the US and EU markets seamlessly. We use AI
+                        voice cloning to translate your top-performing ads into multiple languages without re-shooting.
+                    </p>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
-                    <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <div
+                    class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
+                    <div
+                        class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-3 font-heading">AI Sales & Support Infrastructure</h3>
-                    <p class="text-gray-400 font-light text-sm">We build intelligent agents tailored to your niche. Need a bot that can size mountain clothing or explain marine equipment specs 24/7? We build it.</p>
+                    <p class="text-gray-400 font-light text-sm">We build intelligent agents tailored to your niche. Need
+                        a bot that can size mountain clothing or explain marine equipment specs 24/7? We build it.</p>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
-                    <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                <div
+                    class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors group">
+                    <div
+                        class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                            </path>
+                        </svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-3 font-heading">Email & Community Strategy</h3>
-                    <p class="text-gray-400 font-light text-sm">We design automated lifecycle email flows and community-led social media playbooks to turn one-time buyers into loyal brand advocates.</p>
+                    <p class="text-gray-400 font-light text-sm">We design automated lifecycle email flows and
+                        community-led social media playbooks to turn one-time buyers into loyal brand advocates.</p>
                 </div>
 
                 <!-- Card 5 (Large span) -->
-                <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors md:col-span-2 lg:col-span-2 group flex flex-col justify-between">
+                <div
+                    class="bg-forest-900 border border-forest-800 p-8 rounded-sm hover:bg-forest-800 transition-colors md:col-span-2 lg:col-span-2 group flex flex-col justify-between">
                     <div class="flex flex-col md:flex-row gap-8">
                         <div class="flex-1">
-                            <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            <div
+                                class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-2xl font-bold text-white mb-3 font-heading">Interactive Product Finders</h3>
-                            <p class="text-gray-400 font-light">We build smart quizzes that guide users through large technical catalogs, using that data to deploy AI-powered recommendations.</p>
+                            <p class="text-gray-400 font-light">We build smart quizzes that guide users through large
+                                technical catalogs, using that data to deploy AI-powered recommendations.</p>
                         </div>
-                        <div class="flex-1 md:border-l border-forest-800 md:pl-8 mt-6 md:mt-0 pt-6 md:pt-0 border-t md:border-t-0">
-                            <div class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
-                                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        <div
+                            class="flex-1 md:border-l border-forest-800 md:pl-8 mt-6 md:mt-0 pt-6 md:pt-0 border-t md:border-t-0">
+                            <div
+                                class="h-12 w-12 bg-forest-800 text-accent flex items-center justify-center rounded-sm mb-6 border border-forest-700">
+                                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold text-white mb-3 font-heading">AI-Automated Media Buying</h3>
-                            <p class="text-gray-400 font-light text-sm">We deploy AI tools that automate audience testing and creative tweaks, shifting ad spend in real time to find the most profitable buyers.</p>
+                            <p class="text-gray-400 font-light text-sm">We deploy AI tools that automate audience
+                                testing and creative tweaks, shifting ad spend in real time to find the most profitable
+                                buyers.</p>
                         </div>
                     </div>
                 </div>
@@ -226,25 +310,31 @@
                     Zero Endless Meetings. Maximum Momentum.
                 </h2>
                 <p class="text-xl text-gray-400 font-light">
-                    We operate on a streamlined, asynchronous methodology built for speed and clarity. We replaced broken agency retainers with a seamless subscription model.
+                    We operate on a streamlined, asynchronous methodology built for speed and clarity. We replaced
+                    broken agency retainers with a seamless subscription model.
                 </p>
             </div>
 
             <div class="max-w-4xl mx-auto relative">
                 <!-- Timeline vertical line -->
-                <div class="absolute left-[24px] md:left-1/2 top-4 bottom-4 w-px bg-forest-700 md:-translate-x-1/2"></div>
-                
+                <div class="absolute left-[24px] md:left-1/2 top-4 bottom-4 w-px bg-forest-700 md:-translate-x-1/2">
+                </div>
+
                 <!-- Step 1 -->
                 <div class="relative flex items-center md:justify-between mb-16 group">
                     <div class="hidden md:block w-5/12 text-right pr-12">
-                        <img src="https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?q=80&w=800&auto=format&fit=crop" alt="Mountain working" class="rounded-sm w-full h-40 object-cover opacity-50 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=800&auto=format&fit=crop"
+                            alt="Outdoor survival gear"
+                            class="rounded-sm w-full h-40 object-cover opacity-50 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 shadow-lg">
                     </div>
-                    <div class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-accent flex items-center justify-center z-10 md:-translate-x-1/2 shadow-[0_0_15px_rgba(255,111,0,0.2)]">
+                    <div
+                        class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-accent flex items-center justify-center z-10 md:-translate-x-1/2 shadow-[0_0_15px_rgba(255,111,0,0.2)]">
                         <span class="text-lg font-bold text-white font-heading">01</span>
                     </div>
                     <div class="w-full pl-20 md:pl-0 md:w-5/12 md:pl-12">
                         <h3 class="text-2xl font-bold text-white mb-2 font-heading">The Senda Portal</h3>
-                        <p class="text-gray-400 font-light leading-relaxed">Your central hub to submit strategy requests, drop raw assets, and track progress in real-time.</p>
+                        <p class="text-gray-400 font-light leading-relaxed">Your central hub to submit strategy
+                            requests, drop raw assets, and track progress in real-time.</p>
                     </div>
                 </div>
 
@@ -252,14 +342,20 @@
                 <div class="relative flex items-center md:justify-between mb-16 flex-row-reverse md:flex-row group">
                     <div class="w-full pl-20 md:pl-0 md:w-5/12 md:text-right md:pr-12">
                         <h3 class="text-2xl font-bold text-white mb-2 font-heading">Review & Approve</h3>
-                        <p class="text-gray-400 font-light leading-relaxed">Leave frame-accurate feedback on video creatives directly in your browser.</p>
+                        <p class="text-gray-400 font-light leading-relaxed">Leave frame-accurate feedback on video
+                            creatives directly in your browser.</p>
                     </div>
-                    <div class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
-                        <span class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">02</span>
+                    <div
+                        class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
+                        <span
+                            class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">02</span>
                     </div>
                     <div class="hidden md:block w-5/12 pl-12 text-left">
-                        <div class="h-40 bg-forest-800 rounded-sm border border-forest-700 p-6 flex flex-col justify-center relative shadow-lg">
-                            <div class="w-full bg-slate-900 h-2 mb-4 rounded overflow-hidden"><div class="bg-accent h-full w-3/4"></div></div>
+                        <div
+                            class="h-40 bg-forest-800 rounded-sm border border-forest-700 p-6 flex flex-col justify-center relative shadow-lg">
+                            <div class="w-full bg-slate-900 h-2 mb-4 rounded overflow-hidden">
+                                <div class="bg-accent h-full w-3/4"></div>
+                            </div>
                             <div class="w-3/4 bg-slate-800 h-2 mb-3 rounded"></div>
                             <div class="w-1/2 bg-slate-800 h-2 rounded"></div>
                         </div>
@@ -269,16 +365,25 @@
                 <!-- Step 3 -->
                 <div class="relative flex items-center md:justify-between mb-16 group">
                     <div class="hidden md:block w-5/12 text-right pr-12">
-                        <div class="h-40 bg-forest-800 rounded-sm border border-forest-700 p-6 flex flex-col items-end justify-center relative shadow-lg">
-                            <svg class="w-10 h-10 text-gray-600 group-hover:text-accent transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>
+                        <div
+                            class="h-40 bg-forest-800 rounded-sm border border-forest-700 p-6 flex flex-col items-end justify-center relative shadow-lg">
+                            <svg class="w-10 h-10 text-gray-600 group-hover:text-accent transition-colors" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z">
+                                </path>
+                            </svg>
                         </div>
                     </div>
-                    <div class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
-                        <span class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">03</span>
+                    <div
+                        class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
+                        <span
+                            class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">03</span>
                     </div>
                     <div class="w-full pl-20 md:pl-0 md:w-5/12 md:pl-12">
                         <h3 class="text-2xl font-bold text-white mb-2 font-heading">Direct Access</h3>
-                        <p class="text-gray-400 font-light leading-relaxed">For Expedition and Summit tiers, get a dedicated Slack channel for fast communication.</p>
+                        <p class="text-gray-400 font-light leading-relaxed">For Expedition and Summit tiers, get a
+                            dedicated Slack channel for fast communication.</p>
                     </div>
                 </div>
 
@@ -286,13 +391,18 @@
                 <div class="relative flex items-center md:justify-between flex-row-reverse md:flex-row group">
                     <div class="w-full pl-20 md:pl-0 md:w-5/12 md:text-right md:pr-12">
                         <h3 class="text-2xl font-bold text-white mb-2 font-heading">Focused Execution</h3>
-                        <p class="text-gray-400 font-light leading-relaxed">To guarantee 24-to-48-hour turnarounds, we work on a set number of active requests at a time.</p>
+                        <p class="text-gray-400 font-light leading-relaxed">To guarantee 24-to-48-hour turnarounds, we
+                            work on a set number of active requests at a time.</p>
                     </div>
-                    <div class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
-                        <span class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">04</span>
+                    <div
+                        class="absolute left-0 md:left-1/2 w-12 h-12 rounded-full bg-forest-900 border-2 border-forest-700 group-hover:border-accent transition-colors flex items-center justify-center z-10 md:-translate-x-1/2">
+                        <span
+                            class="text-lg font-bold text-gray-500 group-hover:text-white font-heading transition-colors">04</span>
                     </div>
                     <div class="hidden md:block w-5/12 pl-12 text-left">
-                        <img src="https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=800&auto=format&fit=crop" alt="Focused road ahead" class="rounded-sm w-full h-40 object-cover opacity-50 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop"
+                            alt="Overlanding trail at dusk"
+                            class="rounded-sm w-full h-40 object-cover opacity-50 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0 shadow-lg">
                     </div>
                 </div>
             </div>
@@ -304,82 +414,187 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4">Choose Your Path</h2>
-                <p class="text-xl text-gray-400 font-light max-w-2xl mx-auto">Skip the endless proposals and agency bloat. Transparent subscriptions mapped to your growth stage.</p>
+                <p class="text-xl text-gray-400 font-light max-w-2xl mx-auto">Skip the endless proposals and agency
+                    bloat. Transparent subscriptions mapped to your growth stage.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start max-w-6xl mx-auto">
-                
+
                 <!-- Tier 1: The Base Camp -->
                 <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm">
-                    <h3 class="text-xl text-gray-400 font-bold uppercase tracking-wide mb-2 font-heading">The Base Camp</h3>
-                    <div class="text-4xl font-heading font-bold text-white mb-3">$3,000<span class="text-lg text-gray-500 font-light ml-1">/ month</span></div>
-                    <p class="text-sm text-gray-400 font-light mb-8 h-12">For budget-conscious outdoor brands needing high-volume authentic ad creatives.</p>
-                    
-                    <a href="#contact" class="block w-full text-center py-3 px-4 border border-forest-700 hover:border-accent text-white font-medium rounded-sm transition mb-8 uppercase text-sm tracking-widest">Start Base Camp</a>
-                    
+                    <h3 class="text-xl text-gray-400 font-bold uppercase tracking-wide mb-2 font-heading">The Base Camp
+                    </h3>
+                    <div class="text-4xl font-heading font-bold text-white mb-3">$3,000<span
+                            class="text-lg text-gray-500 font-light ml-1">/ month</span></div>
+                    <p class="text-sm text-gray-400 font-light mb-8 h-12">For budget-conscious outdoor brands needing
+                        high-volume authentic ad creatives.</p>
+
+                    <a href="#contact"
+                        class="block w-full text-center py-3 px-4 border border-forest-700 hover:border-accent text-white font-medium rounded-sm transition mb-8 uppercase text-sm tracking-widest">Start
+                        Base Camp</a>
+
                     <ul class="space-y-4 text-sm text-gray-300">
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">One</strong> active request at a time</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">48-hour</strong> delivery</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Unlimited AI video enhancement</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Lifecycle email & social strategy</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">One</strong> active request at a
+                                time</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">48-hour</strong> delivery</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>Unlimited AI video enhancement</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>Lifecycle email & social strategy</span></li>
                     </ul>
                 </div>
 
                 <!-- Tier 2: The Expedition (Highlighted) -->
-                <div class="bg-forest-800/80 border border-accent p-8 rounded-sm md:-mt-4 relative shadow-[0_0_40px_rgba(255,111,0,0.1)]">
-                    <div class="absolute top-0 right-0 transform translate-x-3 -translate-y-3 bg-accent text-white text-xs font-bold uppercase tracking-widest py-1.5 px-4 rounded-sm shadow-lg">Most Popular</div>
-                    
-                    <h3 class="text-xl text-accent-yellow font-bold uppercase tracking-wide mb-2 font-heading">The Expedition</h3>
-                    <div class="text-5xl font-heading font-bold text-white mb-3">$5,500<span class="text-xl text-gray-400 font-light ml-1">/ month</span></div>
-                    <p class="text-sm text-gray-300 font-light mb-8 h-12">For established brands expanding across borders.</p>
-                    
-                    <a href="#contact" class="block w-full text-center py-4 px-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-sm transition mb-8 uppercase text-sm tracking-widest">Start the Expedition</a>
-                    
-                    <div class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-4">Everything in Base Camp, plus:</div>
+                <div
+                    class="bg-forest-800/80 border border-accent p-8 rounded-sm md:-mt-4 relative shadow-[0_0_40px_rgba(255,111,0,0.1)]">
+                    <div
+                        class="absolute top-0 right-0 transform translate-x-3 -translate-y-3 bg-accent text-white text-xs font-bold uppercase tracking-widest py-1.5 px-4 rounded-sm shadow-lg">
+                        Most Popular</div>
+
+                    <h3 class="text-xl text-accent-yellow font-bold uppercase tracking-wide mb-2 font-heading">The
+                        Expedition</h3>
+                    <div class="text-5xl font-heading font-bold text-white mb-3">$5,500<span
+                            class="text-xl text-gray-400 font-light ml-1">/ month</span></div>
+                    <p class="text-sm text-gray-300 font-light mb-8 h-12">For established brands expanding across
+                        borders.</p>
+
+                    <a href="#contact"
+                        class="block w-full text-center py-4 px-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-sm transition mb-8 uppercase text-sm tracking-widest">Start
+                        the Expedition</a>
+
+                    <div class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-4">Everything in Base Camp,
+                        plus:</div>
                     <ul class="space-y-4 text-sm text-gray-200">
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">Two</strong> active requests at a time</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">24-to-48-hour</strong> delivery</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>AI content localization (Voice cloning)</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Interactive Product Finders</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Dedicated Slack channel</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">Two</strong> active requests at a
+                                time</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">24-to-48-hour</strong> delivery</span>
+                        </li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>AI content localization (Voice cloning)</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>Interactive Product Finders</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-accent-yellow mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>Dedicated Slack channel</span></li>
                     </ul>
                 </div>
 
                 <!-- Tier 3: The Summit -->
                 <div class="bg-forest-900 border border-forest-800 p-8 rounded-sm">
-                    <h3 class="text-xl text-gray-400 font-bold uppercase tracking-wide mb-2 font-heading">The Summit</h3>
-                    <div class="text-4xl font-heading font-bold text-white mb-3">$9,500<span class="text-lg text-gray-500 font-light ml-1">/ month</span></div>
-                    <p class="text-sm text-gray-400 font-light mb-8 h-12">Full ecosystem management for major manufacturers.</p>
-                    
-                    <a href="#contact" class="block w-full text-center py-3 px-4 border border-forest-700 hover:border-accent text-white font-medium rounded-sm transition mb-8 uppercase text-sm tracking-widest">Reach the Summit</a>
-                    
-                    <div class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">Everything in Expedition, plus:</div>
+                    <h3 class="text-xl text-gray-400 font-bold uppercase tracking-wide mb-2 font-heading">The Summit
+                    </h3>
+                    <div class="text-4xl font-heading font-bold text-white mb-3">$9,500<span
+                            class="text-lg text-gray-500 font-light ml-1">/ month</span></div>
+                    <p class="text-sm text-gray-400 font-light mb-8 h-12">Full ecosystem management for major
+                        manufacturers.</p>
+
+                    <a href="#contact"
+                        class="block w-full text-center py-3 px-4 border border-forest-700 hover:border-accent text-white font-medium rounded-sm transition mb-8 uppercase text-sm tracking-widest">Reach
+                        the Summit</a>
+
+                    <div class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">Everything in
+                        Expedition, plus:</div>
                     <ul class="space-y-4 text-sm text-gray-300">
-                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">Three</strong> active requests at a time</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span><strong class="text-white font-medium">Priority 24-hour</strong> delivery</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Custom AI Sales Agents</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>AI-Automated Media Buying</span></li>
-                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>One 60-min strategic consulting call / month</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">Three</strong> active requests at a
+                                time</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span><strong class="text-white font-medium">Priority 24-hour</strong>
+                                delivery</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>Custom AI Sales Agents</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>AI-Automated Media Buying</span></li>
+                        <li class="flex items-start"><svg class="w-5 h-5 text-gray-600 mr-3 shrink-0" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg> <span>One 60-min strategic consulting call / month</span></li>
                     </ul>
                 </div>
 
+            </div>
+
+            <!-- Tier 4: Enterprise Custom Plan -->
+            <div class="mt-8 bg-[#0B130E] border border-forest-800 p-8 md:p-10 rounded-sm max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden shadow-lg">
+                <div class="absolute inset-0 z-0 bg-noise opacity-[0.02] pointer-events-none"></div>
+                <div class="absolute top-0 right-0 w-64 h-64 bg-accent opacity-[0.03] rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="flex-1 text-center md:text-left relative z-10 w-full">
+                    <h3 class="text-3xl font-heading font-bold text-white mb-1">Uncharted Territory <span class="text-lg md:text-xl text-gray-500 font-light block md:inline md:ml-2">(Enterprise Custom Plan)</span></h3>
+                    <div class="text-xl font-heading font-bold text-accent mb-4">Bespoke Pricing</div>
+                    <p class="text-gray-400 font-light max-w-3xl leading-relaxed">For global outdoor conglomerates, international vehicle manufacturers, and massive marine brands requiring dedicated production teams, custom AI infrastructure at scale, and cross-continent campaign management.</p>
+                </div>
+                
+                <div class="w-full md:w-auto shrink-0 relative z-10">
+                    <a href="#contact" class="inline-block w-full text-center py-4 px-8 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-white font-bold rounded-sm transition-all duration-300 uppercase text-sm tracking-widest hover:shadow-[0_0_20px_rgba(255,111,0,0.3)]">
+                        Contact Us to Build Your Plan
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- 6. Footer -->
     <footer id="contact" class="py-24 bg-forest-900 border-t border-forest-800 relative overflow-hidden">
-        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2/3 w-[600px] h-[600px] bg-accent opacity-[0.05] rounded-full blur-[80px] pointer-events-none"></div>
+        <div
+            class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2/3 w-[600px] h-[600px] bg-accent opacity-[0.05] rounded-full blur-[80px] pointer-events-none">
+        </div>
 
         <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
-            <h2 class="text-4xl md:text-6xl font-heading font-extrabold text-white mb-6">Ready to Start the Journey?</h2>
+            <h2 class="text-4xl md:text-6xl font-heading font-extrabold text-white mb-6">Ready to Start the Journey?
+            </h2>
             <p class="text-xl text-gray-400 font-light mb-12">Let's craft a path that feels grounded and authentic.</p>
-            
-            <a href="mailto:hello@senda.agency" class="inline-block px-10 py-5 bg-white text-forest-900 font-bold text-lg rounded-sm uppercase tracking-widest hover:bg-gray-200 transition-colors shadow-lg">
+
+            <a href="mailto:hello@senda.agency"
+                class="inline-block px-10 py-5 bg-white text-forest-900 font-bold text-lg rounded-sm uppercase tracking-widest hover:bg-gray-200 transition-colors shadow-lg">
                 Book an Exploration Call
             </a>
 
-            <div class="mt-24 pt-8 border-t border-forest-800 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+            <div
+                class="mt-24 pt-8 border-t border-forest-800 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
                 <p>&copy; 2026 Senda Agency. All authentic trails reserved.</p>
                 <div class="flex space-x-6 mt-6 md:mt-0 uppercase tracking-widest text-xs font-bold">
                     <a href="#" class="hover:text-white transition">Instagram</a>
@@ -390,4 +605,5 @@
         </div>
     </footer>
 </body>
+
 </html>
